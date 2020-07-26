@@ -1,0 +1,27 @@
+<html>
+<head>
+
+</head>
+<body>
+    <h1>Websocket Test</h1>
+    IP
+    <input id="ipInput"/>
+    :
+    <input id="portInput" style="width: 60px"/>
+    <button id="startSocket">Start Socket</button>
+    <button id="stopSocket">Stop Socket</button>
+    
+    <div style="margin-top: 40px;">
+        Send Command
+        <input id="sendInput"/>
+        <button id="sendSocket">Send</button>
+    </div>
+
+    <div  style="margin-top: 40px; font-size: 20px;">
+        Status: <span id="connectStatusIndicator"></span>
+        <textarea id="consoleArea" style="width: 100%; height: 400px; overflow: scroll;"> </textarea>
+    </div>
+
+    <script src="/index.js"></script>
+</body>
+</html>
